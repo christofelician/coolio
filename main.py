@@ -16,7 +16,7 @@ def main():
     temperaturkoeffizient = float(input("Temperaturkoeffizienten des Materials: "))
 
     # Widerstand bei 20 Grad berechnen
-    widerstand_20 = widerstand20(laenge, querschnitt, leitwert)
+    widerstand_20 = widerstand20(laenge,querschnitt,leitwert)
 
     # Delta-Widerstand berechnen
     delta_widerstand = deltawiderstand(widerstand_20, temperatur, temperaturkoeffizient)
